@@ -2,7 +2,7 @@
 body {background: #f3f3f3;
 }
 .web{margin-left:2px ;margin-right:2px ;margin-top:10px}
-.tag{color:#f77a0b;font-size:90px;text-align:left;}
+.tag{color:#f77a0b;font-size:60px;text-align:left;}
 
 .web ul{width:100%;padding:6px 0;border-bottom:1px solid #eaeaea;line-height:80px;list-style:none;overflow:hidden;background: #e5e5e5;}
 
