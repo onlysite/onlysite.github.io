@@ -6,6 +6,6 @@ body {background: #f3f3f3;
 
 .web ul{padding:6px 0;border-bottom:1px solid #eaeaea;line-height:40px;list-style:none;overflow:hidden;background: #e5e5e5;}
 
-.web li{padding:9px 0;display:inline-flex;white-space:nowrap;justify-content:center;overflow:hidden;font-size:16px}
+.web li{padding:9px 0;display:inline-flex;white-space:nowrap;justify-content:center;overflow:hidden;font-size:36px}
 
 .web a{margin-left:5px ;padding:0 16px;-webkit-transition:all .1s ease-in;transition:all .1s ease-in;color:#535353;text-decoration: none;}
