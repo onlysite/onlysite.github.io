@@ -1,0 +1,31 @@
+
+.web{margin-left:10px;
+      margin-right:10px;
+      margin-top:30px;
+      background: #00000080;
+      }
+      
+.tag{color:#f77a0b;
+     font-size:20px;
+     text-align:left;}
+
+.web ul{font-size:14px;
+         padding:6px 0px;
+         border: 1px solid white;
+         line-height:40px;
+         list-style:none;
+         overflow:hidden;
+         }
+
+.web li{padding: 9px 0px;
+        display: inline-flex;
+        white-space: nowrap;
+        justify-content: center;
+        overflow: hidden}
+
+.web a{margin-left: 5px;
+        padding: 0px 12px;
+        color: #535353;
+        text-decoration: none;
+        text-align: center;
+        }
