@@ -30,9 +30,10 @@ while (true) {
     if (password != '1') {
         alert("口令错误");
         
-   window.opener = null;
-   window.open("about:blank", "_self");
-   window.close();        
+   
+history.go(-1); 
+ 
+return " "; 
    break;
 
     } else {
