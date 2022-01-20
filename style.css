@@ -93,6 +93,6 @@ overflow:hidden;right:0; position: fixed;
 .list ul {width:85px;}
 .list ul li{margin:40px 0px 10px -25px;line-height:40px}
 
-.list ul li a{width:100px;border-radius:20px;height:100%;display:block;color:#242424;background:#fff;text-align:center;font-size:18px;border:1px solid #fff;box-shadow: 0 2px 2px 0 #000}
+.list ul li a{width:100px;border-radius:20px;height:500px;display:block;color:#f2f3f3;background:#fff;text-align:center;font-size:18px;border:1px solid #fff;box-shadow: 0 2px 2px 0 #000}
 }
 
