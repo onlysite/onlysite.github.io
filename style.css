@@ -75,7 +75,7 @@ button,form,input{padding:0;margin:0;border:none;outline:0;background:0 0}input:
 
 #menu.on{border-radius:25px}
 
-#menu.on i{width:25px;background:#777}
+#menu.on i{width:25px;background:#fff
 
 #menu.on i:before{top:-5px;transform:rotate(45deg);width:14px;right:-1px;left:auto;background:#777}
 
