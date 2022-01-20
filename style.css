@@ -81,9 +81,9 @@ button,form,input{padding:0;margin:0;border:none;outline:0;background:0 0}input:
 
 #menu.on i:after{bottom:-5px;transform:rotate(-45deg);width:14px;right:-1px;left:auto;background:#777}
 
-.list{margin:0px 0 0 0 ;height:100%;
+.list{margin:0px 0 0 0 ;height:50%;
 overflow:hidden;right:0; position: fixed; 
- box-shadow: 0px 2px 1px 2px #000;border-top:none}
+ box-shadow: 0px 2px 1px 2px #fff;border-top:none}
 
 
 
