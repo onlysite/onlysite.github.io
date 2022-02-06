@@ -1,6 +1,6 @@
 !# Adblock Plus preferences
 
-
+/js/jads
 /!advert_
 /04/ads-
 /1$3p
