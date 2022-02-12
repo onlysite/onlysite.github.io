@@ -18,13 +18,13 @@
 
         <br>
         <div class="web">
-            <div class="tag">
+            <div class="tag" target="1">
                 动漫
              </div>
-            <div class="url"><ul>
-                <li>
-                    <a href="https://age.tv/" target="_blank">AGE动漫</a>
-                </li>
+            <div id="list_1" class="url">
+                
+                   <li> <a href="https://age.tv/" target="_blank">AGE动漫</a></li>
+                
                 <li>
                     <a href="http://www.dmdm2020.com/">哆咪动漫</a>
                 </li>
@@ -53,12 +53,12 @@
                 <li>
                     <a href="https://www.senfun.net">森之屋🇯🇵</a>
                 </li>
-            </ul>
+            
             </div>
-            <div class="tag">
+            <div class="tag" target="2">
                 动漫下载
             </div>
-            <div class="url"><ul>
+            <div id="list_2" class="url">
                 <li>
                     <a href="https://mikanani.me/" target="_blank">蜜柑计划</a>
                 </li>
@@ -71,12 +71,12 @@
                 <li>
                     <a href="https://www.36dm.club/" target="_blank">简单BT</a>
                 </li>
-            </ul>
+            
             </div>
             <div class="tag">
                 影视
             </div>
-            <div class="url"><ul>
+            <div class="url">
             <li>
                     <a href="http://newzmz.com/" target="_blank">NEW字幕</a>
                 </li>
@@ -116,12 +116,12 @@
                     <a href="https://www.uump4.net/" target="_blank">悠悠MP4</a>
                 </li>
             
-            </ul>
+            
             </div>
             <div class="tag">
                 小说
             </div>
-            <div class="url"><ul>
+            <div class="url">
                 <li>
                     <a href="https://m.zei8.vip/" target="_blank">贼吧网</a>
                 </li>
@@ -149,12 +149,12 @@
                 <li>
                     <a href="https://wap.qiuyewx.com/" target="_blank">平板电子书</a>
                 </li>
-            </ul>
+            
              </div>
             <div class="tag">
                 工具
             </div>
-            <div class="url"><ul>
+            <div class="url">
             
             <li>
                     <a href="https://appcraft.codemao.cn/" target="_blank">做app</a>
@@ -189,12 +189,12 @@
            <li>
                     <a href="https://www.kelongwo.com/project/baidu_pan/" target="_blank">克隆窝</a>
                 </li>
-            </ul>
+            
              </div>
             <div class="tag">
                 社区
             </div>
-            <div class="url"><ul>
+            <div class="url">
             <li>
                     <a href="https://www.nite07.com/" target="_blank">nite07</a>
                 </li>
@@ -228,12 +228,12 @@
                 <li>
                     <a href="https://www.ypojie.com/" target="_blank">易破解</a>
                 </li>
-            </ul>
+            
              </div>
             <div class="tag">
                 导航
             </div>
-            <div class="url"><ul>
+            <div class="url">
             <li>
                     <a href="https://www.miaoaaa.com/" target="_blank">acg喵</a>
                 </li>
@@ -243,7 +243,7 @@
         <li>
                     <a href="https://www.xiaozhongjishu.com/" target="_blank">小众技术</a>
                 </li>
-                </ul>
+                
                  </div>
         
         </div>
@@ -251,7 +251,8 @@
         <script>
 $(document).ready(function(){
 	$(".tag").click(function(){
-		$(".url").toggle();
+		var target = $(this).attr("target");
+      $("#list_"+target).toggle();
 	});
 }); 
  </script>
