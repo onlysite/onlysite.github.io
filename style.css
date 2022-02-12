@@ -21,7 +21,8 @@
 	text-indent:.2rem;
 	outline:0;
 	position:relative;
-	text-shadow:0 0 2px #414141
+	text-shadow:0 0 2px #414141;
+	margin-top:60px;
 }
 .web ul {
 	width:100%;
