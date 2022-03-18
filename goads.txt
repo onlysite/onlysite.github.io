@@ -39565,4 +39565,4 @@ zzxhx.com
 zzyonghao.com
 zzz4.com/JS_AD
 zzzyk.com/js
-www.gov.*.cn
+--www.gov.*.cn
