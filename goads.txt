@@ -6229,8 +6229,7 @@ _yad_jsonp_
 _yahooads
 _years
 _your_ad.
-_zedo.
-a
+_zedo
 a*.chajiaotong.com
 a,xtra.com.my##div[style*=3D"width:300px"]
 a-ads.com$3p
