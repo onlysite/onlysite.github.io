@@ -10,15 +10,15 @@
 $(function () {
     var url = 'https://ip.cn/api/index?ip=&type=0' ;
     $.getJSON(url, function (data) {
-alert(看看咯);
-$("#div1").html(data.ip);
+alert(data.ip);
 
-}
+})
+})
 </script>
 </head>
 <body>
 
-<div class="div1">使用</div>
+<div id="div1">使用</div>
 
 </body>
 
