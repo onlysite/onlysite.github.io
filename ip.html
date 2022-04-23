@@ -1,0 +1,24 @@
+
+
+                    <div id="tab0_title">IP：</div>
+                  
+                    <div id="tab0_ip">加载中...</div>
+                  
+                
+                   <div id="tab1_title">位置：</div>
+                  
+                   <div id="tab0_address">加载中...</div>
+                  
+
+
+<script>
+$.ajax({
+type : "GET",
+dataType: "json",
+url : "https://ip.cn/api/index?ip=&type=0",
+success : function(data) {
+$("#tab0_ip").html(data.ip);
+$("#tab0_address").html(data.address);
+  }
+);
+</script>
