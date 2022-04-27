@@ -15,9 +15,24 @@
 
 
 <body>
-<div id="nav"></div>
+<div id="nav">
+<br>
+ 
+</div>
 <br>
 <div class="web">
+<div class="card">
+<div id="ip" class="w"></div>
+<div id="addr" class="w"></div>
+<script>
+function Json(data) {
+    document.getElementById("addr").innerHTML = "  位置："+data.addr+"";
+     document.getElementById("ip").innerHTML = "  IP："+data.ip+"";
+}
+</script>
+<script src="http://whois.pconline.com.cn/ipJson.jsp?callback=Json&ip"></script>
+</script>
+</div>
 <div class="tag" target="1">
 动漫
 </div>
@@ -30,6 +45,7 @@
 <li>
 <a href="http://www.dmdm2020.com/">哆咪动漫</a>
 </li>
+<li> <a href="https://www.bimiacg4.net/">M站</a> </li>
 
 <li>
 <a href="https://www.scdmfun.cn/">双辞动漫</a>
@@ -176,18 +192,12 @@
 <li>
 <a href="https://toutiao.iiilab.com/" target="_blank">bili解析</a>
 </li>
-<li>
-<a href="https://www.kelongwo.com/project/baidu_pan/" target="_blank">克隆窝</a>
-</li>
 
 </div>
 <div class="tag" target="6">
 论坛社区
 </div>
 <div class="url" id="list_6">
-<li>
-<a href="https://www.nite07.com/" target="_blank">nite07</a>
-</li>
 <li>
 <a href="http://yun.holyge.workers.dev">谷歌云</a>
 </li>

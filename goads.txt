@@ -1,4 +1,9 @@
 ###leader-wrapper
+##[onclick='window.open(this.url)']
+/jads
+##DIV.ad-box
+##SCRIPT[type='text/javascript'][src='//sanme2.taisantech.com/common/l/openjs/g-ffv-cvi/static/d.js']
+##DIV[style='min-width: 130px;padding-top: 3%;padding-bottom: 3%;']
 ###pop
 ##.banner
 ##DIV[style='height:100px;margin : 10px 0px 50px 0px;']
