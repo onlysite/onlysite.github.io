@@ -15,7 +15,7 @@
 --.*/jad.*
 --/ad.*
 --php?ad
---www.gov.*.cn
+:12443/*/*-*-*.$3p
 /!advert_
 /BackgroundAd40.
 /Banner-300x250.
