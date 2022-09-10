@@ -1,5 +1,5 @@
 
-* {text-decoration:none;
+* {text-decoration:none;background-color:#282D30;
 
 }
 
@@ -24,7 +24,7 @@
 	padding:5px 0;
 	font-size:22px;
 	letter-spacing:5px;
-	
+	color:#85D8FF;
 	margin:60px 0 0px 0;
 	
 }
@@ -36,6 +36,7 @@
 
 
 .card{
+
 	width:100%;
 	font-size:18px;
 	box-shadow:0 1px 2px 0 rgba(60,64,67,.3),0 1px 3px 1px rgba(60,64,67,.15);
@@ -48,9 +49,10 @@
 }
 .w {text-indent:20px}
 .url {
+background-color:#282D30;
 	width:100%;
 	font-size:18px;
-	box-shadow:0 1px 2px 0 rgba(60,64,67,.3),0 1px 3px 1px rgba(60,64,67,.15);
+	box-shadow:0 1px 2px 0 rgba(255,255,255),0 1px 3px 1px rgba(60,64,67,.15);
 	margin:0px 0px 50px 0;
 	padding:10px 0px 10px 0px;
 	text-align:left;
@@ -67,12 +69,13 @@
 	overflow:hidden
 }
 .web a {
+background-color:#3A3F42;
 	margin:5px 0px 5px 0;
 	padding:0px 12px 0px 12px;
-	color:black;
+	color:#F9FFFF;
 	text-align:center;
 	width:100px;
-	background:#fff;
+	
 	font-size:18px;
 	border:1px solid #fff;
 	box-shadow:0 1px 2px 0 rgba(60,64,67,.3),0 1px 3px 1px rgba(60,64,67,.15);
