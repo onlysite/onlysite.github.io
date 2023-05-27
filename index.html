@@ -21,6 +21,67 @@
 
 <br>
 <div class="web">
+   <select id="select-news" style="text-align:left;
+	font-weight:700;
+	padding:5px 0;
+	font-size:22px;
+	letter-spacing:5px;
+	color:#000;
+	margin:60px 0 0px 0;
+ -webkit-appearance: none; 
+-moz-appearance: none; 
+appearance: none;">
+        <option value="news1">百度热点</option>
+        <option value="news2">吾爱热门</option>
+        <option value="news3">B站全站排行</option>
+        <option value="news4">微博热搜</option>
+        <option value="news5">抖音热点</option>
+        <option value="news6">抖音热门视频</option>
+      </select>
+    
+<script>
+  const selectNews = document.getElementById('select-news');
+  const ioNews = document.getElementById('io_news');
+
+  selectNews.addEventListener('change', () => {
+    const value = selectNews.value;
+    if (value === 'news1') {
+      ioNews.innerHTML = '加载中...';
+      const script = document.createElement('script');
+      script.src = 'https://www.ionews.top/hot.php?key=K6NZIyO4ZlMnJ26Dx2RpdNt1VBPSMY&id=100000&select=io_news1&css=card';
+      ioNews.appendChild(script);
+    } else if (value === 'news2') {
+      ioNews.innerHTML = '加载中...';
+      const script = document.createElement('script');
+      script.src = 'https://www.ionews.top/hot.php?key=K6NZIyO4ZlMnJ26Dx2RpdNt1VBPSMY&id=100002&select=io_news2&css=card';
+      ioNews.appendChild(script);
+    } else if (value === 'news3') {
+      ioNews.innerHTML = '加载中...';
+      const script = document.createElement('script');
+      script.src = 'https://www.ionews.top/hot.php?key=K6NZIyO4ZlMnJ26Dx2RpdNt1VBPSMY&id=100003&select=io_news3&css=card';
+      ioNews.appendChild(script);
+    } else if (value === 'news4') {
+      ioNews.innerHTML = '加载中...';
+      const script = document.createElement('script');
+      script.src = 'https://www.ionews.top/hot.php?key=K6NZIyO4ZlMnJ26Dx2RpdNt1VBPSMY&id=100007&select=io_news4&css=card';
+      ioNews.appendChild(script);
+    } else if (value === 'news5') {
+      ioNews.innerHTML = '加载中...';
+      const script = document.createElement('script');
+      script.src = 'https://www.ionews.top/hot.php?key=K6NZIyO4ZlMnJ26Dx2RpdNt1VBPSMY&id=100020&select=io_news5&css=card';
+      ioNews.appendChild(script);
+    } else if (value === 'news6') {
+      ioNews.innerHTML = '加载中...';
+      const script = document.createElement('script');
+      script.src = 'https://www.ionews.top/hot.php?key=K6NZIyO4ZlMnJ26Dx2RpdNt1VBPSMY&id=100038&select=io_news6&css=card';
+      ioNews.appendChild(script);
+    } 
+ else {
+      ioNews.innerHTML = '';
+    }
+  });
+</script>
+
 <!--  <div id="ip" class="w"></div> 
 <div id="addr" class="w"></div>
 <script>
@@ -37,7 +98,7 @@ function Json(data) {
 </div>
 <div id="list_1" class="url">
 
-<li> <a href="https://www.silisili.tv/" target="_blank">嘶哩嘶哩</a></li>
+<li> <a href="https://www.anfuns.cc/" target="_blank">Anfuns</a></li>
 <li> <a href="http://www.mxdm8.com/">MX动漫</a> </li>
 <li> <a href="https://kimani.tv/" target="_blank">金阿尼</a></li>
 <li> <a href="https://www.mfan.tv/" target="_blank">萌战</a></li>
@@ -61,12 +122,12 @@ function Json(data) {
 </div>
 <div class="url" id="list_3">
 <li><a href="https://www.dmxq.fun/" target="_blank">大米星球</a></li>
-<li><a href="https://www.dianyinggou.com/">电影狗</a></li>
+<li><a href="https://soupian.tv/">搜片</a></li>
 <li><a href="https://www.btnull.nu/" target="_blank">片库</a</li>
 <li><a href="https://www.czzy.tv/" target="_blank">厂长资源</a></li>
 <li><a href="http://tkznp.com/" target="_blank">天空影视</a></li>
 <li><a href="https://555dy.cc/" target="_blank">555电影</a></li>
-<li><a href="https://plyingshi.com/" target="_blank">霹雳影视</a></li>
+<li><a href="https://chnnetflix.com/" target="_blank">CN奈飞</a></li>
 <li><a href="http://549.tv/" target="_blank">影视森林</a></li>
 <li><a href="https://video.bqrdh.com/" target="_blank">不求人影视</a></li>
 <li><a href="https://vidhub.cc/" target="_blank">vidhub</a></li>
@@ -124,6 +185,7 @@ function Json(data) {
 </div>
 <div class="url" id="list_6">
 <li><a href="https://lestore.lenovo.com/">联想应用</a></li>
+<li><a href="https://www.gkcool.cn/">极客酷</a></li>
 
 <li><a href="https://www.ghxi.com/category/all/android">果核剥壳</a></li>
 <li><a href="https://www.52pojie.cn/" target="_blank">吾爱破解</a></li>
@@ -140,6 +202,8 @@ function Json(data) {
 学习设计
 </div>
 <div class="url"id="list_7">
+<li><a href="http://m.dzkbw.com/" target="_blank">电子教材</a></li>
+
 <li><a href="https://pixabay.com/" target="_blank">无版权图片</a></li>
 <li><a href="https://zh.wikihow.com" target="_blank">WikiHow</a></li>
 <li><a href="http://datav.aliyun.com" target="_blank">地图生成</a></li>
@@ -148,6 +212,7 @@ function Json(data) {
 <li><a href="https://www.seeseed.com" target="_blank">设计天堂</a></li>
 <li><a href="https://www.asklib.com" target="_blank">问答库</a></li>
 <li><a href="https://remove.bg" target="_blank">扣图</a></li>
+<li><a href="https://www.pptsupermarket.com/">PPT市场</a></li>
 
 <li><a href="https://panzoid.com/" target="_blank">视频开头</a></li>
 <li><a href="https://www.mygraphpaper.com/index.php?lang=zh-hans" target="_blank">方格纸</a></li>
