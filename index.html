@@ -8,6 +8,7 @@
 </title>
 <link href="./style.css" rel="stylesheet" type="text/css">
 <script src="./jquery-3.6.0.min.js"></script>
+<script src="https://www.ionews.top/hot.php?key=K6NZIyO4ZlMnJ26Dx2RpdNt1VBPSMY&id=100000&select=io_news1&css=card"></script>
 </head>
 
 
@@ -21,59 +22,8 @@
 
 <br>
 <div class="web">
-<div id="io_news" class="rule-content">加载中...</div>
-   <select id="select-news">
-        <option value="news1">百度热点</option>
-        <option value="news2">吾爱热门</option>
-        <option value="news3">B站全站排行</option>
-        <option value="news4">微博热搜</option>
-        <option value="news5">抖音热点</option>
-        <option value="news6">抖音热门视频</option>
-      </select>
-    
-<script>
-  const selectNews = document.getElementById('select-news');
-  const ioNews = document.getElementById('io_news');
-
-  selectNews.addEventListener('change', () => {
-    const value = selectNews.value;
-    if (value === 'news1') {
-      ioNews.innerHTML = '加载中...';
-      const script = document.createElement('script');
-      script.src = 'https://www.ionews.top/hot.php?key=K6NZIyO4ZlMnJ26Dx2RpdNt1VBPSMY&id=100000&select=io_news1&css=card';
-      ioNews.appendChild(script);
-    } else if (value === 'news2') {
-      ioNews.innerHTML = '加载中...';
-      const script = document.createElement('script');
-      script.src = 'https://www.ionews.top/hot.php?key=K6NZIyO4ZlMnJ26Dx2RpdNt1VBPSMY&id=100002&select=io_news2&css=card';
-      ioNews.appendChild(script);
-    } else if (value === 'news3') {
-      ioNews.innerHTML = '加载中...';
-      const script = document.createElement('script');
-      script.src = 'https://www.ionews.top/hot.php?key=K6NZIyO4ZlMnJ26Dx2RpdNt1VBPSMY&id=100003&select=io_news3&css=card';
-      ioNews.appendChild(script);
-    } else if (value === 'news4') {
-      ioNews.innerHTML = '加载中...';
-      const script = document.createElement('script');
-      script.src = 'https://www.ionews.top/hot.php?key=K6NZIyO4ZlMnJ26Dx2RpdNt1VBPSMY&id=100007&select=io_news4&css=card';
-      ioNews.appendChild(script);
-    } else if (value === 'news5') {
-      ioNews.innerHTML = '加载中...';
-      const script = document.createElement('script');
-      script.src = 'https://www.ionews.top/hot.php?key=K6NZIyO4ZlMnJ26Dx2RpdNt1VBPSMY&id=100020&select=io_news5&css=card';
-      ioNews.appendChild(script);
-    } else if (value === 'news6') {
-      ioNews.innerHTML = '加载中...';
-      const script = document.createElement('script');
-      script.src = 'https://www.ionews.top/hot.php?key=K6NZIyO4ZlMnJ26Dx2RpdNt1VBPSMY&id=100038&select=io_news6&css=card';
-      ioNews.appendChild(script);
-    } 
- else {
-      ioNews.innerHTML = '';
-    }
-  });
-</script>
-
+<div id="io_news1" class="rule-content">加载中...</div>
+  
 <!--  <div id="ip" class="w"></div> 
 <div id="addr" class="w"></div>
 <script>
