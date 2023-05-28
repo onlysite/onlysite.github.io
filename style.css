@@ -75,4 +75,6 @@ background-color:#353541;
 	border-radius:20px;
 	display:block;
 }
-
+li a:hover {color:#000;background-color:#fff;
+	
+}
