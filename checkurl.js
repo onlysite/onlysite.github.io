@@ -1,25 +1,11 @@
-var links = document.getElementsByTagName("a");
-
-for (var i = 0; i < links.length; i++) {
-
-  var link = links[i];
-
-  var url = link.href;
-
-  var xhr = new XMLHttpRequest();
-
-  xhr.open("GET", url);
-
-  xhr.onload = function() {
-
-    if (this.status != 200) {
-
-      link.innerHTML += " ⛔️";
-
-    }
-
-  };
-
-  xhr.send();
-
+const links = document.getElementsByTagName("a");
+for (let i = 0; i < links.length; i++) {
+  const link = links[i];
+  if (link.href) {
+    fetch(link.href, { method: 'HEAD' }).then(response => {
+      if (!response.ok) {
+        link.innerText += " ⛔️";
+      }
+    });
+  }
 }
