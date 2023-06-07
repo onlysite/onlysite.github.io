@@ -8,7 +8,6 @@
 </title>
 <link href="./style.css" rel="stylesheet" type="text/css">
 <script src="./jquery-3.6.0.min.js"></script>
- <script src="./checkurl.js"></script>
 
 </head>
 <body>
@@ -194,6 +193,21 @@ function Json(data) {
 </div>
 
 </div>
+<script>
+var links = document.getElementsByTagName("a");
+for (var i = 0; i < links.length; i++) {
+  var link = links[i];
+  var url = link.href;
+  var xhr = new XMLHttpRequest();
+  xhr.open("GET", url);
+  xhr.onload = function() {
+    if (this.status != 200) {
+      link.innerHTML += " ⛔️";
+    }
+  };
+  xhr.send();
+}
+</script>
 
 <script>
 $(document).ready(function(){
